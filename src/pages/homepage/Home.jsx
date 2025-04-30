@@ -10,7 +10,7 @@ const Home = () => {
               <h3 className="text-[28px] text-[#fff] font-[600] leading-none">
                 Amit Yadav
               </h3>{" "}
-              <span className="text-[18px] transition-all duration-300 ">
+              <span className="text-[18px] transition-all duration-300 handShake">
                 👋
               </span>
             </p>
@@ -20,7 +20,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="flex items-center gap-3 text-[11px] text-[#9f9fa8] bg-[#1c2121] border-1 border-[#2e3033] rounded-3xl px-4 py-1">
+          <div className="flex items-center gap-3 text-[11px] text-[#9f9fa8] bg-[#1c2121] border-[1px] border-[#2e3033] cursor-pointer transition-all duration-300 hover:border-[#bebebe] rounded-3xl px-4 py-1">
             <div className="flex items-center gap-2 relative border">
               <div className="w-1.5 h-1.5 bg-[#88db9b] rounded-full absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] smallDot"></div>
               <div className="w-1.5 h-1.5 bg-[#2bb84d] rounded-full absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] "></div>
@@ -29,7 +29,12 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="main bg-[#111111] h-[86%]"></div>
+        <div className="main bg-[#111111] h-[86%]">
+
+          <div className="">
+
+          </div>
+        </div>
       </div>
     </div>
   );
