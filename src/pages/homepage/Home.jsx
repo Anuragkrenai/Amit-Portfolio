@@ -1,7 +1,7 @@
 import "./Home.css";
+import Marquee from "../../components/marquee/Marquee";
 const Home = () => {
   return (
-    <div className="h-screen w-screen fixed top-0 left-0 flex justify-center items-center  backImage ">
       <div className="mainContainer h-[90%] w-[85%]  rounded-2xl overflow-hidden">
         <div className="header bg-[#111a16] h-[14%] flex items-center justify-between px-10 ">
           <div>
@@ -31,8 +31,46 @@ const Home = () => {
 
         <div className="main bg-[#111111] h-[86%] flex flex-col justify-between gap-5 p-7">
           <div className="h-[60%] w-full  flex justify-between gap-4">
-            <div className="h-full w-[25%] bg-[#18181b] border-[1px] border-[#27272a] rounded-xl"></div>
-            <div className="h-full w-[75%] bg-[#18181b] border-[1px] border-[#27272a] rounded-xl"></div>
+            <div className="h-full w-[22%]  flex flex-col justify-between gap-4">
+              <div className="h-[80%] w-full rounded-xl">
+                <img src="/Usman.webp" alt="" className="w-full h-full object-cover rounded-xl maskImage" />
+              </div>
+              <div className="h-[15%] w-full bg-[#18181b] border-[1px] border-[#27272a] rounded-lg shrink-0 cursor-pointer flex items-center justify-center hover:scale-[101%] transition-all duration-300 ">
+                <p className="text-[1.1vw] text-[#d5d5d5] font-[400] text-center p-2  uppercase ">Let's Work Together</p>
+              </div>
+            </div>
+
+            <div className="h-full w-[78%] flex justify-between flex-col gap-3 p-5 bg-[#18181b] border-[1px] border-[#27272a] rounded-xl">
+              <p className="text-white text-[1.4vw] line-clamp-5 letter-spacing tracking-wider  h-max">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aut officia atque voluptatibus natus culpa deserunt? Cupiditate laborum odio quam repellendus possimus ab accusantium, neque atque iure commodi reiciendis? Quae.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem Lorem lorem lorem as d dfsaf  Fuga aut officia atque voluptatibus natus culpa deserunt? Cupiditate laborum odio quam repellendus possimus ab accusantium, neque atque iure commodi reiciendis? Quae.
+              </p>
+
+              <div className="flex w-full items-center justify-between gap-4 h-[36%] ">
+                 <div className="w-1/3 h-full bg-[#27272a] rounded-lg flex flex-col justify-between gap-3 px-4 py-4 hover:scale-[105%] transition-all duration-300 cursor-pointer">
+                   <p className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-terminal w-5 h-5 mr-2 text-purple-400"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" x2="20" y1="19" y2="19"></line></svg>
+                    <span className="text-[#c085fd] text-[1.3vw]">Skills</span>
+                   </p>
+                   <p className="text-[1vw] text-[#dfdfdf]">Building responsive UIs with React, Next.js, and React Native.</p>
+                 </div>
+                 <div className="w-1/3 h-full bg-[#27272a] rounded-lg flex flex-col justify-between gap-3 px-4 py-4 hover:scale-[105%] transition-all duration-300 cursor-pointer">
+                   <p className="flex items-center">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plane-takeoff w-5 h-5 mr-2 text-green-500"><path d="M2 22h20"></path><path d="M6.36 17.4 4 17l-2-4 1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12 5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.41 2.41 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z"></path></svg>                    <span className="text-[#2fc65e] text-[1.3vw]">Hobbies</span>
+                   </p>
+                   <p className="text-[1vw] text-[#dfdfdf]">Dominating in Tekken or scoring goals in FIFA. ⚽🎮</p>
+                 </div>
+                 <div className="w-1/3 h-full bg-[#27272a] rounded-lg flex flex-col justify-between gap-3 px-4 py-4 hover:scale-[105%] transition-all duration-300 cursor-pointer">
+                   <p className="flex items-center">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket w-5 h-5 mr-2 text-blue-400"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg>                    <span className="text-[#5fa1f4] text-[1.3vw]">Goal</span>
+                   </p>
+                   <p className="text-[1vw] text-[#dfdfdf]">Let's team up and create something amazing together. 🚀</p>
+                 </div>
+
+              </div>
+
+              <p className="text-[1.2vw] italic text-[#b5b5b9] font-[300]">P.S. I'm not really &nbsp;<span className="bg-[#ca8a02] text-black py-[3px] px-[6px] rounded-[4px]">Batman</span>&nbsp;, but I might be the &nbsp;<span className="bg-[#ea580b] text-black py-[3px] px-[6px] rounded-[4px]">hero</span>&nbsp; your project needs! 🦸‍♂️</p>
+            </div>
           </div>
 
           <div className="h-[16%] w-full flex justify-between gap-5">
@@ -82,10 +120,14 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="h-[16%] w-full bg-[#18181b] border-[1px] border-[#27272a] rounded-xl"></div>
+          <div className="h-[16%] w-full bg-[#18181b] px-6 py-3  flex items-center border-[1px] gap-[1.5vw] border-[#27272a] rounded-xl">
+            <div className="w-full flex overflow-hidden">
+              <Marquee/>
+            </div>
+
+          </div>
         </div>
       </div>
-    </div>
   );
 };
 

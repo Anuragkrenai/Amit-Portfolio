@@ -23,8 +23,10 @@
   100% { transform: rotate(20deg); }
 }
 
-.backImage {
-  background-image: linear-gradient(to right, #1a1a1a 1px, transparent 1px), linear-gradient(to bottom, #1a1a1a 1px, transparent 1px);
-  background-size: 3.2vw 3.2vw;
-  opacity: 1;
+
+.maskImage {
+    mask-image: url(/mask.svg);
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mask-position: center;
 }
