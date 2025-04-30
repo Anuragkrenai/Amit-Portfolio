@@ -1,7 +1,7 @@
 import "./Home.css";
 const Home = () => {
   return (
-    <div className="h-screen w-screen fixed top-0 left-0 flex justify-center items-center  ">
+    <div className="h-screen w-screen fixed top-0 left-0 flex justify-center items-center  backImage ">
       <div className="mainContainer h-[90%] w-[85%]  rounded-2xl overflow-hidden">
         <div className="header bg-[#111a16] h-[14%] flex items-center justify-between px-10 ">
           <div>
