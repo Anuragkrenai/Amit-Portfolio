@@ -40,7 +40,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="h-full w-[78%] flex justify-between flex-col gap-3 p-5 bg-[#18181b] border-[1px] border-[#27272a] rounded-xl">
+            <div className="h-full w-[78%] flex justify-between flex-col gap-3  px-5 py-3 bg-[#18181b] border-[1px] border-[#27272a] rounded-xl">
               <p className="text-white text-[1.4vw] line-clamp-5 letter-spacing tracking-wider  h-max">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aut officia atque voluptatibus natus culpa deserunt? Cupiditate laborum odio quam repellendus possimus ab accusantium, neque atque iure commodi reiciendis? Quae.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem Lorem lorem lorem as d dfsaf  Fuga aut officia atque voluptatibus natus culpa deserunt? Cupiditate laborum odio quam repellendus possimus ab accusantium, neque atque iure commodi reiciendis? Quae.
