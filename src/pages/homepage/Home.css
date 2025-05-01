@@ -60,24 +60,6 @@
   box-shadow: 0px -20px 13px 9px rgb(255, 255, 255);
   animation: rotation 5s linear  infinite;
 }
-/* 
-@keyframes rotation {
-  0% {
-    transform: translateX(3%) rotate(0deg);
-  }
-  25% {
-    transform: translateX(900%) rotate(0deg);
-  }
-  50% {
-    transform: translateX(900%) rotate(180deg);
-  }
-  75% {
-    transform: translateX(3%) rotate(180deg);
-  }
-  100% {
-    transform: translateX(3%) rotate(360deg);
-  }
-} */
 
 @keyframes rotation {
   0% {
