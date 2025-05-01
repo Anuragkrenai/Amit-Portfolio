@@ -32,7 +32,7 @@ const Home = () => {
         <div className="main bg-[#111111] h-[86%] flex flex-col justify-between gap-5 p-7">
           <div className="h-[60%] w-full  flex justify-between gap-4">
             <div className="h-full w-[22%]  flex flex-col justify-between gap-4">
-              <div className="h-[80%] w-full rounded-xl maskImage cursor-pointer">
+              <div className="h-[80%] w-full rounded-xl maskImage cursor-pointer select-none">
                 <img src="/Usman.webp" alt="" className="w-full h-full object-cover rounded-xl  grayscale hover:grayscale-[none] transition-all duration-300" />
               </div>
               <div className="h-[15%] relative w-full overflow-hidden bg-[#18181b] border-[1px] border-[#27272a] rounded-lg shrink-0 cursor-pointer flex items-center justify-center hover:scale-[101%] transition-all duration-300 ">
