@@ -32,11 +32,12 @@ const Home = () => {
         <div className="main bg-[#111111] h-[86%] flex flex-col justify-between gap-5 p-7">
           <div className="h-[60%] w-full  flex justify-between gap-4">
             <div className="h-full w-[22%]  flex flex-col justify-between gap-4">
-              <div className="h-[80%] w-full rounded-xl">
-                <img src="/Usman.webp" alt="" className="w-full h-full object-cover rounded-xl maskImage" />
+              <div className="h-[80%] w-full rounded-xl maskImage cursor-pointer">
+                <img src="/Usman.webp" alt="" className="w-full h-full object-cover rounded-xl  grayscale hover:grayscale-[none] transition-all duration-300" />
               </div>
-              <div className="h-[15%] w-full bg-[#18181b] border-[1px] border-[#27272a] rounded-lg shrink-0 cursor-pointer flex items-center justify-center hover:scale-[101%] transition-all duration-300 ">
-                <p className="text-[1.1vw] text-[#d5d5d5] font-[400] text-center p-2  uppercase ">Let's Work Together</p>
+              <div className="h-[15%] relative w-full overflow-hidden bg-[#18181b] border-[1px] border-[#27272a] rounded-lg shrink-0 cursor-pointer flex items-center justify-center hover:scale-[101%] transition-all duration-300 ">
+                <p className="text-[1.1vw] text-[#d5d5d5] font-[400] text-center p-2  uppercase h-[calc(100%-2px)] w-[calc(100%-2px)] rounded-lg  bg-[#18181b] z-3 flex items-center justify-center">Let's Work Together</p>
+                <div className="w-5 h-3  absolute top-[50%] translate-y-[-50%] left-2 rotate-box"></div>
               </div>
             </div>
 
