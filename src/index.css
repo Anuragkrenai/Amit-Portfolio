@@ -7,6 +7,7 @@
 
 body{
   background-color: #040714;
+  background-color: #000000;
   color: #fff;
   font-family: "League Spartan", sans-serif;
 }
@@ -28,3 +29,9 @@ body{
     /* pointer-events: none;    */
   }
 }
+
+.navlinkContainer .active{
+  border-color: #64f196;
+  color: #64f196;
+}
+
