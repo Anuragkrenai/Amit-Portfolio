@@ -42,13 +42,13 @@
 .maskImage::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   width: 100%;
-  height: 1px;
+  height: 2px;
   background-color: #b0b0b0;
   opacity: 1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .maskImage:hover::after {
