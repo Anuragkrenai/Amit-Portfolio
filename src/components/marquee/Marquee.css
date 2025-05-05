@@ -1,9 +1,0 @@
-.firstMarquee {
-    animation: firstItem 16s linear infinite;
-  }
-  
-  @keyframes firstItem {
-    0% { transform: translateX(0%); }
-    100% { transform: translateX(-50%) }
-  }
-  

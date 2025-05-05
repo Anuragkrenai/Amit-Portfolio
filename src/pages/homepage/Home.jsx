@@ -1,10 +1,10 @@
 import "./Home.css";
 import { NavLink } from "react-router-dom";
 import { useRef, useEffect } from "react";
-import Marquee from "../../components/marquee/Marquee";
 import { FaUserTie } from "react-icons/fa6";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { TiContacts } from "react-icons/ti";
+import Skills from "../../components/skills/Skills";
 
 
 const Home = () => {
@@ -69,9 +69,9 @@ const Home = () => {
                 <img src="/Usman.webp" alt="" className="w-full h-full object-cover rounded-xl  grayscale hover:grayscale-[none] active:grayscale-[none] transition-all duration-300" />
               </div>
               <div className="h-[15%] relative w-full overflow-hidden bg-[#18181b] border-[1px] border-[#27272a] rounded-lg shrink-0 cursor-pointer flex items-center justify-center hover:scale-[101%] transition-all duration-300 ">
-                <p className="text-[1.1vw] text-[#d5d5d5] font-[400] text-center p-2  uppercase h-[calc(100%-2px)] w-[calc(100%-2px)] rounded-lg  bg-[#18181b] z-3 flex items-center justify-center">Let's Work Together</p>
+                <p className="text-[1.1vw] text-[#d5d5d5] font-[400] text-center p-2  uppercase h-[calc(100%-2px)] w-[calc(100%-2px)]  rounded-lg  bg-[#18181b] z-3 flex items-center justify-center">Let's Work Together</p>
                  <div className="w-[calc(100%-30px)] h-[10%] absolute  top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-                  <div className="w-4 h-1  absolute top-[50%] translate-y-[-50%] left-2 rotate-box"></div>
+                  <div className="w-[2vw] h-[10%]  absolute top-[50%] translate-y-[-50%] left-2 rotate-box"></div>
                  </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="h-[14%] w-full flex justify-between gap-5">
+          {/* <div className="h-[14%] w-full flex  justify-between gap-5">
             <div className="h-full w-[50%] bg-[#18181b] border-[1px] border-[#27272a] px-6 py-3 flex items-center justify-between rounded-xl">
               <div className="h-full w-[20%] text-[#e3e3e3] text-[1.3vw] font-[600] flex items-center justify-center">
                 Frontend Skills
@@ -155,7 +155,11 @@ const Home = () => {
                 Backend Skills
               </div>
             </div>
-          </div>
+          </div> */}
+
+          <Skills />
+
+
           <div className="h-[14%] w-full bg-[#18181b] px-6 py-3  flex items-center border-[1px] gap-[1.5vw] border-[#27272a] rounded-xl">
             {/* <div className="w-full flex overflow-hidden">
               <Marquee/>
