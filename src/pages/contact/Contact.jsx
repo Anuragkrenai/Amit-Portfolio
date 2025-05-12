@@ -42,7 +42,7 @@ const Contact = () => {
   const [buttonMgs, setButtonMsg] = useState(<span className="flex items-center gap-[0.5vw]">Send Message <IoSend  className="text-[1vw]"/></span>)
 
 
-  const URL = 'https://dummyjson.com/test'
+  const URL = 'https://dummyjson.com/c/a546-de89-4978-b768'
   // const URL = 'https://dummyjsoaasdfn.com/test'
 
   function handleError(){
@@ -54,7 +54,7 @@ const Contact = () => {
 
   async function postData (){
     try{
-      const response = await axios.get(URL);
+      const response = await axios.post(URL, message);
       console.log(response)
       if(response.status === 200){
         setLoading(false)
