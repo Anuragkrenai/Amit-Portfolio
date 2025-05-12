@@ -7,7 +7,6 @@ import { TiMessages } from "react-icons/ti";
 import { IoSend } from "react-icons/io5";
 import { IoShareSocial } from "react-icons/io5";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -17,6 +16,7 @@ import { FaSpinner } from "react-icons/fa";
 import { VscDebugRestart } from "react-icons/vsc";
 import { GrInstagram } from "react-icons/gr";
 import { FaDiscord } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 
 import { FaSkullCrossbones } from "react-icons/fa6";
@@ -151,7 +151,7 @@ const Contact = () => {
            <p className="text-[1.6vw] text-[#d4d4d8] flex items-center gap-1.5">Social Links <IoShareSocial className="mb-[0.4vw]"/></p>
 
            <div className="flex flex-col gap-4">
-              <Link to='https://wa.me/+923096236310' target="_blank" className="w-full border border-[#272928] rounded-lg hover:border-[#10b98140] focus:border-[#10b98140] px-[1vw] py-[0.7vw] text-[1.2vw] bg-[#1e2020] text-[#9e9e9e] flex items-center justify-between transition-all duration-300 hover:text-[#10b74d] cursor-pointer line-clamp-1"> <span className="flex items-center gap-[0.7vw]"><IoCall  className="mb-[0.3vw]"/> +91 9054834923</span>  <FaExternalLinkAlt className="mb-[0.3vw]"/></Link>
+              <Link to='https://wa.me/+923096236310' target="_blank" className="w-full border border-[#272928] rounded-lg hover:border-[#10b98140] focus:border-[#10b98140] px-[1vw] py-[0.7vw] text-[1.2vw] bg-[#1e2020] text-[#9e9e9e] flex items-center justify-between transition-all duration-300 hover:text-[#10b74d] cursor-pointer line-clamp-1"> <span className="flex items-center gap-[0.7vw]"><FaWhatsapp  className="mb-[0.3vw]"/> +91 9054834923</span>  <FaExternalLinkAlt className="mb-[0.3vw]"/></Link>
               <Link to='email@example.com' target="_blank" className="w-full border border-[#272928] rounded-lg hover:border-[#10b98140] focus:border-[#10b98140] px-[1vw] py-[0.7vw] text-[1.2vw] bg-[#1e2020] text-[#9e9e9e] flex items-center justify-between transition-all duration-300 hover:text-[#10b74d] cursor-pointer line-clamp-1"> <span className="flex items-center gap-[0.7vw]"><MdEmail  className="mb-[0.3vw]"/> admin@test.com</span>  <FaExternalLinkAlt className="mb-[0.3vw]"/></Link>
               <Link to='https://in.linkedin.com/in/harisiitkgp' target="_blank" className="w-full border border-[#272928] rounded-lg hover:border-[#10b98140] focus:border-[#10b98140] px-[1vw] py-[0.7vw] text-[1.2vw] bg-[#1e2020] text-[#9e9e9e] flex items-center justify-between transition-all duration-300 hover:text-[#10b74d] cursor-pointer line-clamp-1"> <span className="flex items-center gap-[0.7vw]"><FaLinkedin   className="mb-[0.3vw]"/> in/ami-yadav</span>  <FaExternalLinkAlt className="mb-[0.3vw]" /></Link>
               <Link to='https://github.com/Anuragkrenai' target="_blank" className="w-full border border-[#272928] rounded-lg hover:border-[#10b98140] focus:border-[#10b98140] px-[1vw] py-[0.7vw] text-[1.2vw] bg-[#1e2020] text-[#9e9e9e] flex items-center justify-between transition-all duration-300 hover:text-[#10b74d] cursor-pointer line-clamp-1"> <span className="flex items-center gap-[0.7vw]"><FaGithub  className="mb-[0.3vw]"/> github.com/Anuragkrenai</span>  <FaExternalLinkAlt className="mb-[0.3vw]"/></Link>

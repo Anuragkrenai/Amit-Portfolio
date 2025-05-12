@@ -14,7 +14,7 @@ const Projects = () => {
       <div>
           <div className="flex items-center gap-3 text-[1.2vw] text-[#9f9fa8]">
             <h3 className="text-[2.4vw] text-[#fff] font-[600] leading-none text-shadow-2xl">
-              Projects
+              Vlogs
             </h3>{" "}
             <span className="text-[1.8vw] text-white transition-all duration-300 projectBounce">
               <HiOutlineDocumentText />
