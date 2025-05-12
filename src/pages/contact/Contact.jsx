@@ -15,6 +15,9 @@ import { BsTwitterX } from "react-icons/bs";
 import { useState } from "react";
 import { FaSpinner } from "react-icons/fa";
 import { VscDebugRestart } from "react-icons/vsc";
+import { GrInstagram } from "react-icons/gr";
+import { FaDiscord } from "react-icons/fa";
+
 
 import { FaSkullCrossbones } from "react-icons/fa6";
 
@@ -153,6 +156,8 @@ const Contact = () => {
               <Link to='https://in.linkedin.com/in/harisiitkgp' target="_blank" className="w-full border border-[#272928] rounded-lg hover:border-[#10b98140] focus:border-[#10b98140] px-[1vw] py-[0.7vw] text-[1.2vw] bg-[#1e2020] text-[#9e9e9e] flex items-center justify-between transition-all duration-300 hover:text-[#10b74d] cursor-pointer line-clamp-1"> <span className="flex items-center gap-[0.7vw]"><FaLinkedin   className="mb-[0.3vw]"/> in/ami-yadav</span>  <FaExternalLinkAlt className="mb-[0.3vw]" /></Link>
               <Link to='https://github.com/Anuragkrenai' target="_blank" className="w-full border border-[#272928] rounded-lg hover:border-[#10b98140] focus:border-[#10b98140] px-[1vw] py-[0.7vw] text-[1.2vw] bg-[#1e2020] text-[#9e9e9e] flex items-center justify-between transition-all duration-300 hover:text-[#10b74d] cursor-pointer line-clamp-1"> <span className="flex items-center gap-[0.7vw]"><FaGithub  className="mb-[0.3vw]"/> github.com/Anuragkrenai</span>  <FaExternalLinkAlt className="mb-[0.3vw]"/></Link>
               <Link to='https://x.com/narendramodi' target="_blank" className="w-full border border-[#272928] rounded-lg hover:border-[#10b98140] focus:border-[#10b98140] px-[1vw] py-[0.7vw] text-[1.2vw] bg-[#1e2020] text-[#9e9e9e] flex items-center justify-between transition-all duration-300 hover:text-[#10b74d] cursor-pointer line-clamp-1"> <span className="flex items-center gap-[0.7vw]"><BsTwitterX  className="mb-[0.3vw]"/> x.com/narendramodi</span>  <FaExternalLinkAlt className="mb-[0.3vw]"/></Link>
+              <Link to='https://www.instagram.com/ashishchanchlani/?hl=en' target="_blank" className="w-full border border-[#272928] rounded-lg hover:border-[#10b98140] focus:border-[#10b98140] px-[1vw] py-[0.7vw] text-[1.2vw] bg-[#1e2020] text-[#9e9e9e] flex items-center justify-between transition-all duration-300 hover:text-[#10b74d] cursor-pointer line-clamp-1"> <span className="flex items-center gap-[0.7vw]"><GrInstagram className="mb-[0.3vw]"/> instagram.com/ashishchanchlani</span>  <FaExternalLinkAlt className="mb-[0.3vw]"/></Link>
+              <Link to='https://discord.com/invite/programming' target="_blank" className="w-full border border-[#272928] rounded-lg hover:border-[#10b98140] focus:border-[#10b98140] px-[1vw] py-[0.7vw] text-[1.2vw] bg-[#1e2020] text-[#9e9e9e] flex items-center justify-between transition-all duration-300 hover:text-[#10b74d] cursor-pointer line-clamp-1"> <span className="flex items-center gap-[0.7vw]"><FaDiscord  className="mb-[0.3vw]"/> discord.com/programming</span>  <FaExternalLinkAlt className="mb-[0.3vw]"/></Link>
            </div>
 
         </div>
