@@ -17,10 +17,7 @@ import { VscDebugRestart } from "react-icons/vsc";
 import { GrInstagram } from "react-icons/gr";
 import { FaDiscord } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-
-
 import { FaSkullCrossbones } from "react-icons/fa6";
-
 import { TiTick } from "react-icons/ti";
 import axios from 'axios'
 
@@ -42,8 +39,6 @@ const Contact = () => {
   const [buttonMgs, setButtonMsg] = useState(<span className="flex items-center gap-[0.5vw]">Send Message <IoSend  className="text-[1vw]"/></span>)
 
 
-  const URL = 'https://dummyjson.com/c/a546-de89-4978-b768'
-  // const URL = 'https://dummyjsoaasdfn.com/test'
 
   function handleError(){
     !message.name? setNameErr(true) : setNameErr(false)
@@ -52,10 +47,12 @@ const Contact = () => {
   }
 
 
+  // const URL = 'http://localhost:3000/sendemail';
+  const URL = 'https://portfolio-backend-3f2x.onrender.com/sendemail';
+
   async function postData (){
     try{
       const response = await axios.post(URL, message);
-      console.log(response)
       if(response.status === 200){
         setLoading(false)
         setMessageState('success')  
@@ -91,10 +88,8 @@ const Contact = () => {
 
 
 
-  const handleSubmit =(e)=>{
+  const handleSubmit = async (e)=>{
     e.preventDefault();
-
-
     if(!message.name || !message.email || !message.message){
       handleError()
     }
