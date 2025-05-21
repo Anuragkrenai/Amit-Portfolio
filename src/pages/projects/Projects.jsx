@@ -4,7 +4,7 @@ import { FaUserTie } from "react-icons/fa6";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { TiContacts } from "react-icons/ti";
 import { HiOutlineDocumentText } from "react-icons/hi2";
-import Project_card from "../../components/project-card/Project-card";
+import {Project_card, Vlog_card} from "../../components/project-card/Project-card";
 
 const Projects = () => {
 
@@ -50,12 +50,14 @@ const Projects = () => {
 
       <div className="main bg-[#111111] h-[86%] flex flex-col  gap-5 px-7 py-5">
         <div className="h-max max-h-full w-full flex flex-wrap justify-between gap-8">
+            <Vlog_card/>
+            <Vlog_card/>
             <Project_card/>
+            <Vlog_card/>
             <Project_card/>
-            <Project_card/>
-            <Project_card/>
-            <Project_card/>
-            <Project_card/>
+            <Vlog_card/>
+
+
 
         </div>
 

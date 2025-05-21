@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { TiArrowRight } from "react-icons/ti";
 
 
-const Project_card = () => {
+export const Vlog_card = () => {
 
 
     return (
@@ -27,5 +27,21 @@ const Project_card = () => {
 
     )
 }
+export const Project_card = () => {
 
-export default Project_card
+
+    return (
+        <div className={` h-[30vh] w-[31%] border border-[#27272a] flex flex-col shadow-white-light rounded-lg bg-[#18181b] scaleup-animation overflow-hidden cursor-pointer transition-all duration-300 hover:scale-[101%] hover:border-[#64f196] group`}>
+            <div className="header w-full h-[17%]  bg-[#27272a] px-[3%] py-[1%] flex items-center justify-between text-[#d4d4d8] text-[1.25vw]">
+                <div className='flex items-center gap-[0.6vw] w-[70%] group-hover:text-[#64f196]'><FaGithub className=' mb-[0.2vw]' /><p className='line-clamp-1'>E-Commerce Website</p>  <FaExternalLinkAlt className=' mb-[0.2vw] text-[1vw]' /></div>
+                <div className=' text-[#7c7c7c] text-[1vw] flex items-center justify-center'>12-04-2025</div>
+            </div>
+            <main className='grow-1 mx-[0.5vw] my-[0.4vw]   rounded-md overflow-hidden relative '>
+                <img src="/maxebels-banner.webp" className='object-cover h-full w-full' alt="" />
+                
+            </main>
+
+        </div>
+
+    )
+}
