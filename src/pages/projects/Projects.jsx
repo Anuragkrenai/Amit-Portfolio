@@ -4,7 +4,7 @@ import { FaUserTie } from "react-icons/fa6";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { TiContacts } from "react-icons/ti";
 import { HiOutlineDocumentText } from "react-icons/hi2";
-
+import Project_card from "../../components/project-card/Project-card";
 
 const Projects = () => {
 
@@ -14,7 +14,7 @@ const Projects = () => {
       <div>
           <div className="flex items-center gap-3 text-[1.2vw] text-[#9f9fa8]">
             <h3 className="text-[2.4vw] text-[#fff] font-[600] leading-none text-shadow-2xl">
-              Vlogs
+              Vlogs / Projects
             </h3>{" "}
             <span className="text-[1.8vw] text-white transition-all duration-300 projectBounce">
               <HiOutlineDocumentText />
@@ -50,12 +50,13 @@ const Projects = () => {
 
       <div className="main bg-[#111111] h-[86%] flex flex-col  gap-5 px-7 py-5">
         <div className="h-max max-h-full w-full flex flex-wrap justify-between gap-8">
-          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
-          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
-          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
-          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
-          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
-          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
+            <Project_card/>
+            <Project_card/>
+            <Project_card/>
+            <Project_card/>
+            <Project_card/>
+            <Project_card/>
+
         </div>
 
       </div>
