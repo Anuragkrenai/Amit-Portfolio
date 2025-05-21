@@ -48,7 +48,17 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="main bg-[#111111] h-[86%] flex flex-col justify-between gap-5 px-7 py-5"></div>
+      <div className="main bg-[#111111] h-[86%] flex flex-col  gap-5 px-7 py-5">
+        <div className="h-max max-h-full w-full flex flex-wrap justify-between gap-8">
+          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
+          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
+          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
+          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
+          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
+          <div className="h-[28vh] w-[31%] border rounded-lg "></div>
+        </div>
+
+      </div>
     </div>
   );
 };
