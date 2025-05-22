@@ -18,6 +18,10 @@ body{
   opacity: 1;
 }
 
+.disabled{
+  filter: brightness(0.4);
+  pointer-events: none;
+}
 
 .disableDrag {
   img {

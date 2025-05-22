@@ -3,7 +3,7 @@
   }
 
   .scaleup-animation{
-    animation: scaleupAnimate 0.8s ease 0.2s 1 forwards;
+    animation: scaleupAnimate 0.8s ease  1 forwards;
   }
 
   @keyframes scaleupAnimate {
